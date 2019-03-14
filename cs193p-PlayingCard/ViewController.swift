@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        for _ in 1...10 {
+        for _ in 1...3 {
             if let card = deck.draw() {
-                print("\(card)")
+                print(card)
             }
         }
     }
