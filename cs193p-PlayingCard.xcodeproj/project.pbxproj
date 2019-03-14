@@ -54,14 +54,22 @@
 		5215E661223A09AA0030AFE6 /* cs193p-PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
-				5215E662223A09AA0030AFE6 /* AppDelegate.swift */,
+				5215E675223A09C40030AFE6 /* Supporting Files */,
 				5215E664223A09AA0030AFE6 /* ViewController.swift */,
 				5215E666223A09AA0030AFE6 /* Main.storyboard */,
-				5215E669223A09AB0030AFE6 /* Assets.xcassets */,
-				5215E66B223A09AB0030AFE6 /* LaunchScreen.storyboard */,
 				5215E66E223A09AB0030AFE6 /* Info.plist */,
 			);
 			path = "cs193p-PlayingCard";
+			sourceTree = "<group>";
+		};
+		5215E675223A09C40030AFE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5215E662223A09AA0030AFE6 /* AppDelegate.swift */,
+				5215E669223A09AB0030AFE6 /* Assets.xcassets */,
+				5215E66B223A09AB0030AFE6 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
