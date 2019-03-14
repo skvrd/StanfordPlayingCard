@@ -19,16 +19,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Mof-Dl-bP2" customClass="PlayingCardView" customModule="cs193p_PlayingCard" customModuleProvider="target">
-                                <rect key="frame" x="20" y="30" width="728" height="974"/>
+                                <rect key="frame" x="83" y="40" width="602.5" height="964"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="250" constant="800" id="DdV-91-1yA"/>
+                                    <constraint firstAttribute="width" secondItem="Mof-Dl-bP2" secondAttribute="height" multiplier="5:8" id="gHd-65-7Ub"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mof-Dl-bP2" secondAttribute="trailing" constant="20" id="2qP-rS-ZWy"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Mof-Dl-bP2" secondAttribute="bottom" constant="20" id="VsG-zX-zoI"/>
-                            <constraint firstItem="Mof-Dl-bP2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dC3-vo-MkN"/>
-                            <constraint firstItem="Mof-Dl-bP2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="gnq-7b-fhK"/>
+                            <constraint firstItem="Mof-Dl-bP2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SOG-rX-BGs"/>
+                            <constraint firstItem="Mof-Dl-bP2" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="bZU-dk-1XW"/>
+                            <constraint firstItem="Mof-Dl-bP2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dC3-vo-MkN"/>
+                            <constraint firstItem="Mof-Dl-bP2" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="gnq-7b-fhK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
