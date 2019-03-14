@@ -21,6 +21,7 @@
                             <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Mof-Dl-bP2" customClass="PlayingCardView" customModule="cs193p_PlayingCard" customModuleProvider="target">
                                 <rect key="frame" x="83" y="40" width="602.5" height="964"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" priority="250" constant="800" id="DdV-91-1yA"/>
                                     <constraint firstAttribute="width" secondItem="Mof-Dl-bP2" secondAttribute="height" multiplier="5:8" id="gHd-65-7Ub"/>
@@ -30,6 +31,9 @@
                                         <integer key="value" value="7"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="spU-hx-nqz" appends="YES" id="R73-bv-cgf"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -41,8 +45,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="playingCardView" destination="Mof-Dl-bP2" id="edB-Bt-sbs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="spU-hx-nqz">
+                    <connections>
+                        <action selector="flipCard:" destination="BYZ-38-t0r" id="Smx-dd-BVr"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="137.5" y="133.59375"/>
         </scene>
