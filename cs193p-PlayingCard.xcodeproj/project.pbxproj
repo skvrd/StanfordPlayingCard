@@ -13,6 +13,7 @@
 		5215E66A223A09AB0030AFE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5215E669223A09AB0030AFE6 /* Assets.xcassets */; };
 		5215E66D223A09AB0030AFE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5215E66B223A09AB0030AFE6 /* LaunchScreen.storyboard */; };
 		5215E677223A0C700030AFE6 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215E676223A0C700030AFE6 /* PlayingCard.swift */; };
+		5215E679223A14530030AFE6 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215E678223A14530030AFE6 /* PlayingCardDeck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5215E66C223A09AB0030AFE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5215E66E223A09AB0030AFE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5215E676223A0C700030AFE6 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		5215E678223A14530030AFE6 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				5215E676223A0C700030AFE6 /* PlayingCard.swift */,
+				5215E678223A14530030AFE6 /* PlayingCardDeck.swift */,
 				5215E675223A09C40030AFE6 /* Supporting Files */,
 				5215E664223A09AA0030AFE6 /* ViewController.swift */,
 				5215E666223A09AA0030AFE6 /* Main.storyboard */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5215E665223A09AA0030AFE6 /* ViewController.swift in Sources */,
+				5215E679223A14530030AFE6 /* PlayingCardDeck.swift in Sources */,
 				5215E677223A0C700030AFE6 /* PlayingCard.swift in Sources */,
 				5215E663223A09AA0030AFE6 /* AppDelegate.swift in Sources */,
 			);
@@ -294,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4WX597J492;
 				INFOPLIST_FILE = "cs193p-PlayingCard/Info.plist";
@@ -303,6 +308,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.grisha.cs193p-PlayingCard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,6 +318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4WX597J492;
 				INFOPLIST_FILE = "cs193p-PlayingCard/Info.plist";
@@ -321,6 +328,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "co.grisha.cs193p-PlayingCard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
