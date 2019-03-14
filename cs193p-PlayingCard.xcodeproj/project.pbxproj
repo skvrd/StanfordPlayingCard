@@ -12,6 +12,7 @@
 		5215E668223A09AA0030AFE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5215E666223A09AA0030AFE6 /* Main.storyboard */; };
 		5215E66A223A09AB0030AFE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5215E669223A09AB0030AFE6 /* Assets.xcassets */; };
 		5215E66D223A09AB0030AFE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5215E66B223A09AB0030AFE6 /* LaunchScreen.storyboard */; };
+		5215E677223A0C700030AFE6 /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5215E676223A0C700030AFE6 /* PlayingCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5215E669223A09AB0030AFE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5215E66C223A09AB0030AFE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5215E66E223A09AB0030AFE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5215E676223A0C700030AFE6 /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,12 @@
 		5215E661223A09AA0030AFE6 /* cs193p-PlayingCard */ = {
 			isa = PBXGroup;
 			children = (
+				5215E676223A0C700030AFE6 /* PlayingCard.swift */,
 				5215E675223A09C40030AFE6 /* Supporting Files */,
 				5215E664223A09AA0030AFE6 /* ViewController.swift */,
 				5215E666223A09AA0030AFE6 /* Main.storyboard */,
 				5215E66E223A09AB0030AFE6 /* Info.plist */,
+				5215E669223A09AB0030AFE6 /* Assets.xcassets */,
 			);
 			path = "cs193p-PlayingCard";
 			sourceTree = "<group>";
@@ -66,7 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				5215E662223A09AA0030AFE6 /* AppDelegate.swift */,
-				5215E669223A09AB0030AFE6 /* Assets.xcassets */,
 				5215E66B223A09AB0030AFE6 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5215E665223A09AA0030AFE6 /* ViewController.swift in Sources */,
+				5215E677223A0C700030AFE6 /* PlayingCard.swift in Sources */,
 				5215E663223A09AA0030AFE6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
